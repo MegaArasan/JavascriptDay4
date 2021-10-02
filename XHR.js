@@ -11,8 +11,7 @@ XHR.onload = function(){
         console.log(data[i].name.common)
         console.log(data[i].region)
         console.log(data[i].subregion)
-        // no population data in the url
-        //  console.log(data[i].population)
+          console.log(data[i].population)
     }
 }
 XHR.send();
